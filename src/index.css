@@ -118,56 +118,65 @@ All colors MUST be HSL.
 }
 
 /* ============================= */
-/* REACH COMPOSITES PDS COLOR PALETTE */
+/* CUSTOM COLOR PALETTE CLASSES */
 /* ============================= */
 
 /* Background colors */
-.bg-3f4f17 { background-color: #3F4F17; }
-.bg-adc168 { background-color: #ADC168; }
-.bg-e6f6a5 { background-color: #E6F6A5; }
-.bg-c36992 { background-color: #C36992; }
+.bg-cacae0 { background-color: #CACAE0; }
+.bg-eae9eb { background-color: #EAE9EB; }
+.bg-fadfec { background-color: #FADFEC; }
+.bg-64899e { background-color: #64899E; }
+.bg-655d9b { background-color: #655D9B; }
 .bg-a03359 { background-color: #A03359; }
 
 /* Text colors */
-.text-3f4f17 { color: #3F4F17; }
-.text-adc168 { color: #ADC168; }
-.text-e6f6a5 { color: #E6F6A5; }
-.text-c36992 { color: #C36992; }
+.text-cacae0 { color: #CACAE0; }
+.text-eae9eb { color: #EAE9EB; }
+.text-fadfec { color: #FADFEC; }
+.text-64899e { color: #64899E; }
+.text-655d9b { color: #655D9B; }
 .text-a03359 { color: #A03359; }
 
-/* Icon filters for PNG icons */
-
-/* #3F4F17 */
-.icon-3f4f17 {
-  filter: brightness(0) saturate(100%)
-    invert(23%) sepia(24%) saturate(1380%)
-    hue-rotate(52deg) brightness(95%) contrast(90%);
-}
-
-/* #ADC168 */
-.icon-adc168 {
-  filter: brightness(0) saturate(100%)
-    invert(82%) sepia(23%) saturate(531%)
-    hue-rotate(32deg) brightness(95%) contrast(90%);
-}
-
-/* #E6F6A5 */
-.icon-e6f6a5 {
-  filter: brightness(0) saturate(100%)
-    invert(90%) sepia(23%) saturate(468%)
-    hue-rotate(20deg) brightness(102%) contrast(95%);
-}
-
-/* #C36992 */
-.icon-c36992 {
-  filter: brightness(0) saturate(100%)
-    invert(49%) sepia(26%) saturate(1365%)
-    hue-rotate(310deg) brightness(95%) contrast(90%);
-}
+/* Icon color filters for PNG icons */
 
 /* #A03359 */
 .icon-a03359 {
   filter: brightness(0) saturate(100%)
     invert(24%) sepia(86%) saturate(2894%)
     hue-rotate(323deg) brightness(92%) contrast(92%);
+}
+
+/* #CACAE0 */
+.icon-cacae0 {
+  filter: brightness(0) saturate(100%)
+    invert(88%) sepia(9%) saturate(305%)
+    hue-rotate(201deg) brightness(95%) contrast(90%);
+}
+
+/* #EAE9EB */
+.icon-eae9eb {
+  filter: brightness(0) saturate(100%)
+    invert(94%) sepia(2%) saturate(100%)
+    hue-rotate(210deg) brightness(95%) contrast(95%);
+}
+
+/* #FADFEC */
+.icon-fadfec {
+  filter: brightness(0) saturate(100%)
+    invert(94%) sepia(11%) saturate(640%)
+    hue-rotate(307deg) brightness(102%) contrast(95%);
+}
+
+/* #64899E */
+.icon-64899e {
+  filter: brightness(0) saturate(100%)
+    invert(46%) sepia(19%) saturate(624%)
+    hue-rotate(158deg) brightness(92%) contrast(90%);
+}
+
+/* #655D9B */
+.icon-655d9b {
+  filter: brightness(0) saturate(100%)
+    invert(41%) sepia(14%) saturate(1020%)
+    hue-rotate(217deg) brightness(95%) contrast(90%);
 }
