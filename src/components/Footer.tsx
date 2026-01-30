@@ -25,7 +25,7 @@ const Footer = () => {
               <span className="text-primary">REACH</span> Composites PDS
             </Link>
             <p className="text-gray-300 max-w-md">
-              The REACH Composites PDS
+              Best In Class Composites Pattern Design Software
             </p>
 
             {/* Contact Icons Section */}
